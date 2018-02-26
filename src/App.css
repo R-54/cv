@@ -1,0 +1,78 @@
+html, body, #root, .app, .main {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #121212;
+}
+
+@media only screen and (min-width: 1921px) {
+  .main {
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1920px) {
+  .personal-informaction {
+    float: left;
+    min-height: 100%;
+    width: 33%;
+    background-color: #121212;
+    cursor: default;
+  }
+  .description {
+    float: left;
+    min-height: 100%;
+    width: 67%;
+    background-color: #2E2E2E; 
+  }
+  .sections {
+    padding-left: 15px;
+    padding-top: 20px;
+    color: #999999;
+  }
+  .section {
+    padding-top: 20px;
+  }
+  .section__title {
+    font-size: 24px;
+    color: #0CA597;
+    border-bottom: 2px solid #0CA597;
+  }
+  .section-content {
+    padding-top: 20px;
+  }
+  .section-content__list {
+    padding-left: 20px;
+    line-height: 30px;
+    font-size: 16px;
+    white-space: pre-wrap;
+  }
+  .section-content__list:hover {
+    color: #0CA597;
+    cursor: default;
+  }
+  .section__title--white {
+    color: #DBDBDB;
+    border-bottom: none;
+  }
+  .section-content__list--white {
+    padding-bottom: 20px;
+  }
+  .section-content__list--white:hover {
+    color: #DBDBDB;
+  }
+  .description__title {
+    margin-top: 40px;
+    color: #121212;
+    background-color: #999999;
+    font-size: 48px;
+    text-align: center;
+    white-space: pre-wrap;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    background-color: black;
+  }
+}
